@@ -1,0 +1,1488 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-04-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="1" title="peso" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="tipo" type="string" />
+    </attributes>
+    <nodes>
+      <node id="feijao" label="feijao">
+        <attvalues>
+          <attvalue for="0" value="Carboidrato" />
+        </attvalues>
+      </node>
+      <node id="carne seca" label="carne seca">
+        <attvalues>
+          <attvalue for="0" value="Proteina" />
+        </attvalues>
+      </node>
+      <node id="linguica" label="linguica">
+        <attvalues>
+          <attvalue for="0" value="Proteina" />
+        </attvalues>
+      </node>
+      <node id="porco" label="porco">
+        <attvalues>
+          <attvalue for="0" value="Proteina" />
+        </attvalues>
+      </node>
+      <node id="louro" label="louro">
+        <attvalues>
+          <attvalue for="0" value="Condimento" />
+        </attvalues>
+      </node>
+      <node id="arroz" label="arroz">
+        <attvalues>
+          <attvalue for="0" value="Carboidrato" />
+        </attvalues>
+      </node>
+      <node id="farinha" label="farinha">
+        <attvalues>
+          <attvalue for="0" value="Carboidrato" />
+        </attvalues>
+      </node>
+      <node id="peixe" label="peixe">
+        <attvalues>
+          <attvalue for="0" value="Proteina" />
+        </attvalues>
+      </node>
+      <node id="coco" label="coco">
+        <attvalues>
+          <attvalue for="0" value="Laticinio" />
+        </attvalues>
+      </node>
+      <node id="azeite de dende" label="azeite de dende">
+        <attvalues>
+          <attvalue for="0" value="Gordura" />
+        </attvalues>
+      </node>
+      <node id="pimentao" label="pimentao">
+        <attvalues>
+          <attvalue for="0" value="Vegetal" />
+        </attvalues>
+      </node>
+      <node id="tomate" label="tomate">
+        <attvalues>
+          <attvalue for="0" value="Vegetal" />
+        </attvalues>
+      </node>
+      <node id="cebola" label="cebola">
+        <attvalues>
+          <attvalue for="0" value="Vegetal" />
+        </attvalues>
+      </node>
+      <node id="coentro" label="coentro">
+        <attvalues>
+          <attvalue for="0" value="Condimento" />
+        </attvalues>
+      </node>
+      <node id="polvilho" label="polvilho">
+        <attvalues>
+          <attvalue for="0" value="Carboidrato" />
+        </attvalues>
+      </node>
+      <node id="queijo" label="queijo">
+        <attvalues>
+          <attvalue for="0" value="Laticinio" />
+        </attvalues>
+      </node>
+      <node id="leite" label="leite">
+        <attvalues>
+          <attvalue for="0" value="Laticinio" />
+        </attvalues>
+      </node>
+      <node id="ovo" label="ovo">
+        <attvalues>
+          <attvalue for="0" value="Proteina" />
+        </attvalues>
+      </node>
+      <node id="oleo" label="oleo">
+        <attvalues>
+          <attvalue for="0" value="Gordura" />
+        </attvalues>
+      </node>
+      <node id="leite condensado" label="leite condensado">
+        <attvalues>
+          <attvalue for="0" value="Laticinio" />
+        </attvalues>
+      </node>
+      <node id="chocolate" label="chocolate">
+        <attvalues>
+          <attvalue for="0" value="Outro" />
+        </attvalues>
+      </node>
+      <node id="manteiga" label="manteiga">
+        <attvalues>
+          <attvalue for="0" value="Gordura" />
+        </attvalues>
+      </node>
+      <node id="granulado" label="granulado">
+        <attvalues>
+          <attvalue for="0" value="Outro" />
+        </attvalues>
+      </node>
+      <node id="frango" label="frango">
+        <attvalues>
+          <attvalue for="0" value="Proteina" />
+        </attvalues>
+      </node>
+      <node id="batata" label="batata">
+        <attvalues>
+          <attvalue for="0" value="Carboidrato" />
+        </attvalues>
+      </node>
+      <node id="tapioca" label="tapioca">
+        <attvalues>
+          <attvalue for="0" value="Carboidrato" />
+        </attvalues>
+      </node>
+      <node id="pao" label="pao">
+        <attvalues>
+          <attvalue for="0" value="Carboidrato" />
+        </attvalues>
+      </node>
+      <node id="camarao" label="camarao">
+        <attvalues>
+          <attvalue for="0" value="Proteina" />
+        </attvalues>
+      </node>
+      <node id="castanha de caju" label="castanha de caju">
+        <attvalues>
+          <attvalue for="0" value="Outro" />
+        </attvalues>
+      </node>
+      <node id="feijao verde" label="feijao verde">
+        <attvalues>
+          <attvalue for="0" value="Carboidrato" />
+        </attvalues>
+      </node>
+      <node id="feijao-fradinho" label="feijao-fradinho">
+        <attvalues>
+          <attvalue for="0" value="Carboidrato" />
+        </attvalues>
+      </node>
+      <node id="vatapa" label="vatapa">
+        <attvalues>
+          <attvalue for="0" value="Outro" />
+        </attvalues>
+      </node>
+      <node id="massa de pastel" label="massa de pastel">
+        <attvalues>
+          <attvalue for="0" value="Carboidrato" />
+        </attvalues>
+      </node>
+      <node id="carne moida" label="carne moida">
+        <attvalues>
+          <attvalue for="0" value="Proteina" />
+        </attvalues>
+      </node>
+      <node id="azeitonas" label="azeitonas">
+        <attvalues>
+          <attvalue for="0" value="Outro" />
+        </attvalues>
+      </node>
+      <node id="quiabo" label="quiabo">
+        <attvalues>
+          <attvalue for="0" value="Vegetal" />
+        </attvalues>
+      </node>
+      <node id="alho" label="alho">
+        <attvalues>
+          <attvalue for="0" value="Condimento" />
+        </attvalues>
+      </node>
+      <node id="mandioca" label="mandioca">
+        <attvalues>
+          <attvalue for="0" value="Carboidrato" />
+        </attvalues>
+      </node>
+      <node id="fuba" label="fuba">
+        <attvalues>
+          <attvalue for="0" value="Carboidrato" />
+        </attvalues>
+      </node>
+      <node id="ovos" label="ovos">
+        <attvalues>
+          <attvalue for="0" value="Proteina" />
+        </attvalues>
+      </node>
+      <node id="milho" label="milho">
+        <attvalues>
+          <attvalue for="0" value="Carboidrato" />
+        </attvalues>
+      </node>
+      <node id="acucar" label="acucar">
+        <attvalues>
+          <attvalue for="0" value="Outro" />
+        </attvalues>
+      </node>
+      <node id="canela" label="canela">
+        <attvalues>
+          <attvalue for="0" value="Condimento" />
+        </attvalues>
+      </node>
+      <node id="amido de milho" label="amido de milho">
+        <attvalues>
+          <attvalue for="0" value="Carboidrato" />
+        </attvalues>
+      </node>
+      <node id="rabada" label="rabada">
+        <attvalues>
+          <attvalue for="0" value="Proteina" />
+        </attvalues>
+      </node>
+      <node id="agriao" label="agriao">
+        <attvalues>
+          <attvalue for="0" value="Vegetal" />
+        </attvalues>
+      </node>
+      <node id="costela" label="costela">
+        <attvalues>
+          <attvalue for="0" value="Proteina" />
+        </attvalues>
+      </node>
+      <node id="picanha" label="picanha">
+        <attvalues>
+          <attvalue for="0" value="Proteina" />
+        </attvalues>
+      </node>
+      <node id="sal grosso" label="sal grosso">
+        <attvalues>
+          <attvalue for="0" value="Condimento" />
+        </attvalues>
+      </node>
+      <node id="massa" label="massa">
+        <attvalues>
+          <attvalue for="0" value="Carboidrato" />
+        </attvalues>
+      </node>
+      <node id="palmito" label="palmito">
+        <attvalues>
+          <attvalue for="0" value="Vegetal" />
+        </attvalues>
+      </node>
+      <node id="bucho" label="bucho">
+        <attvalues>
+          <attvalue for="0" value="Proteina" />
+        </attvalues>
+      </node>
+      <node id="bacon" label="bacon">
+        <attvalues>
+          <attvalue for="0" value="Proteina" />
+        </attvalues>
+      </node>
+      <node id="agua" label="agua">
+        <attvalues>
+          <attvalue for="0" value="Outro" />
+        </attvalues>
+      </node>
+      <node id="sal" label="sal">
+        <attvalues>
+          <attvalue for="0" value="Condimento" />
+        </attvalues>
+      </node>
+      <node id="moela" label="moela">
+        <attvalues>
+          <attvalue for="0" value="Proteina" />
+        </attvalues>
+      </node>
+      <node id="leite de coco" label="leite de coco">
+        <attvalues>
+          <attvalue for="0" value="Laticinio" />
+        </attvalues>
+      </node>
+      <node id="abobora" label="abobora">
+        <attvalues>
+          <attvalue for="0" value="Vegetal" />
+        </attvalues>
+      </node>
+      <node id="creme de leite" label="creme de leite">
+        <attvalues>
+          <attvalue for="0" value="Laticinio" />
+        </attvalues>
+      </node>
+      <node id="sururu" label="sururu">
+        <attvalues>
+          <attvalue for="0" value="Proteina" />
+        </attvalues>
+      </node>
+      <node id="couve" label="couve">
+        <attvalues>
+          <attvalue for="0" value="Vegetal" />
+        </attvalues>
+      </node>
+      <node id="goiaba" label="goiaba">
+        <attvalues>
+          <attvalue for="0" value="Fruta" />
+        </attvalues>
+      </node>
+      <node id="gelatina" label="gelatina">
+        <attvalues>
+          <attvalue for="0" value="Outro" />
+        </attvalues>
+      </node>
+      <node id="amendoim" label="amendoim">
+        <attvalues>
+          <attvalue for="0" value="Outro" />
+        </attvalues>
+      </node>
+      <node id="rapadura" label="rapadura">
+        <attvalues>
+          <attvalue for="0" value="Outro" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="feijao" target="carne seca" id="0">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="feijao" target="linguica" id="1">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="feijao" target="porco" id="2">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="feijao" target="louro" id="3">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="feijao" target="arroz" id="4">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="feijao" target="farinha" id="5">
+        <attvalues>
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="feijao" target="bucho" id="6">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="feijao" target="cebola" id="7">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="feijao" target="bacon" id="8">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="feijao" target="alho" id="9">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="carne seca" target="linguica" id="10">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="carne seca" target="porco" id="11">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="carne seca" target="louro" id="12">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="carne seca" target="arroz" id="13">
+        <attvalues>
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="carne seca" target="farinha" id="14">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="carne seca" target="cebola" id="15">
+        <attvalues>
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="carne seca" target="pimentao" id="16">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="carne seca" target="tomate" id="17">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="carne seca" target="feijao verde" id="18">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="carne seca" target="queijo" id="19">
+        <attvalues>
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="carne seca" target="mandioca" id="20">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="linguica" target="porco" id="21">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="linguica" target="louro" id="22">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="linguica" target="arroz" id="23">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="linguica" target="farinha" id="24">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="linguica" target="batata" id="25">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="linguica" target="couve" id="26">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="linguica" target="alho" id="27">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="linguica" target="cebola" id="28">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="porco" target="louro" id="29">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="porco" target="arroz" id="30">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="porco" target="farinha" id="31">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="porco" target="sal" id="32">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="porco" target="oleo" id="33">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="louro" target="arroz" id="34">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="louro" target="farinha" id="35">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="arroz" target="farinha" id="36">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="arroz" target="cebola" id="37">
+        <attvalues>
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="arroz" target="pimentao" id="38">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="arroz" target="tomate" id="39">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="arroz" target="feijao verde" id="40">
+        <attvalues>
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="arroz" target="queijo" id="41">
+        <attvalues>
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="arroz" target="leite" id="42">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="arroz" target="acucar" id="43">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="arroz" target="canela" id="44">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="arroz" target="bacon" id="45">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="farinha" target="frango" id="46">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="farinha" target="batata" id="47">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="farinha" target="queijo" id="48">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="farinha" target="oleo" id="49">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="farinha" target="acucar" id="50">
+        <attvalues>
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="farinha" target="leite" id="51">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="farinha" target="ovos" id="52">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="farinha" target="manteiga" id="53">
+        <attvalues>
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="farinha" target="cebola" id="54">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="farinha" target="ovo" id="55">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="farinha" target="bacon" id="56">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="farinha" target="alho" id="57">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="farinha" target="goiaba" id="58">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="farinha" target="fuba" id="59">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="farinha" target="amendoim" id="60">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="peixe" target="coco" id="61">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="peixe" target="azeite de dende" id="62">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="peixe" target="pimentao" id="63">
+        <attvalues>
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="peixe" target="tomate" id="64">
+        <attvalues>
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="peixe" target="cebola" id="65">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="peixe" target="coentro" id="66">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="peixe" target="batata" id="67">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="coco" target="azeite de dende" id="68">
+        <attvalues>
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="coco" target="pimentao" id="69">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="coco" target="tomate" id="70">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="coco" target="cebola" id="71">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="coco" target="coentro" id="72">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="coco" target="tapioca" id="73">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="coco" target="leite condensado" id="74">
+        <attvalues>
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="coco" target="pao" id="75">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="coco" target="camarao" id="76">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="coco" target="castanha de caju" id="77">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="coco" target="ovo" id="78">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="coco" target="acucar" id="79">
+        <attvalues>
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="coco" target="manteiga" id="80">
+        <attvalues>
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="coco" target="leite" id="81">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="coco" target="amido de milho" id="82">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="coco" target="queijo" id="83">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="coco" target="gelatina" id="84">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="azeite de dende" target="pimentao" id="85">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="azeite de dende" target="tomate" id="86">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="azeite de dende" target="cebola" id="87">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="azeite de dende" target="coentro" id="88">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="azeite de dende" target="pao" id="89">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="azeite de dende" target="camarao" id="90">
+        <attvalues>
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="azeite de dende" target="castanha de caju" id="91">
+        <attvalues>
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="azeite de dende" target="feijao-fradinho" id="92">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="azeite de dende" target="vatapa" id="93">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="azeite de dende" target="quiabo" id="94">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="pimentao" target="tomate" id="95">
+        <attvalues>
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="pimentao" target="cebola" id="96">
+        <attvalues>
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="pimentao" target="coentro" id="97">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="pimentao" target="batata" id="98">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="tomate" target="cebola" id="99">
+        <attvalues>
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="tomate" target="coentro" id="100">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="tomate" target="batata" id="101">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="tomate" target="moela" id="102">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="tomate" target="alho" id="103">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="cebola" target="coentro" id="104">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="cebola" target="feijao verde" id="105">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="cebola" target="queijo" id="106">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="cebola" target="frango" id="107">
+        <attvalues>
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="cebola" target="quiabo" id="108">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="cebola" target="alho" id="109">
+        <attvalues>
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="cebola" target="rabada" id="110">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="cebola" target="agriao" id="111">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="cebola" target="costela" id="112">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="cebola" target="mandioca" id="113">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="cebola" target="manteiga" id="114">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="cebola" target="ovo" id="115">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="cebola" target="bucho" id="116">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="cebola" target="moela" id="117">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="cebola" target="batata" id="118">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="coentro" target="sururu" id="119">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="coentro" target="leite de coco" id="120">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="polvilho" target="queijo" id="121">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="polvilho" target="leite" id="122">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="polvilho" target="ovo" id="123">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="polvilho" target="oleo" id="124">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="queijo" target="leite" id="125">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="queijo" target="ovo" id="126">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="queijo" target="oleo" id="127">
+        <attvalues>
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="queijo" target="frango" id="128">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="queijo" target="batata" id="129">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="queijo" target="feijao verde" id="130">
+        <attvalues>
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="queijo" target="massa de pastel" id="131">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="queijo" target="carne moida" id="132">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="queijo" target="azeitonas" id="133">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="queijo" target="mandioca" id="134">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="queijo" target="bacon" id="135">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="queijo" target="leite condensado" id="136">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="leite" target="ovo" id="137">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="leite" target="oleo" id="138">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="leite" target="fuba" id="139">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="leite" target="ovos" id="140">
+        <attvalues>
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="leite" target="manteiga" id="141">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="leite" target="milho" id="142">
+        <attvalues>
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="leite" target="acucar" id="143">
+        <attvalues>
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="leite" target="leite condensado" id="144">
+        <attvalues>
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="leite" target="canela" id="145">
+        <attvalues>
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="leite" target="amido de milho" id="146">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="ovo" target="oleo" id="147">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="ovo" target="acucar" id="148">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="ovo" target="manteiga" id="149">
+        <attvalues>
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="oleo" target="frango" id="150">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="oleo" target="batata" id="151">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="oleo" target="massa de pastel" id="152">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="oleo" target="carne moida" id="153">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="oleo" target="azeitonas" id="154">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="oleo" target="sal" id="155">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="leite condensado" target="chocolate" id="156">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="leite condensado" target="manteiga" id="157">
+        <attvalues>
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="leite condensado" target="granulado" id="158">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="leite condensado" target="tapioca" id="159">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="leite condensado" target="milho" id="160">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="leite condensado" target="canela" id="161">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="leite condensado" target="ovos" id="162">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="leite condensado" target="acucar" id="163">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="chocolate" target="manteiga" id="164">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="chocolate" target="granulado" id="165">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="manteiga" target="granulado" id="166">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="manteiga" target="fuba" id="167">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="manteiga" target="ovos" id="168">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="manteiga" target="acucar" id="169">
+        <attvalues>
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="manteiga" target="goiaba" id="170">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="frango" target="batata" id="171">
+        <attvalues>
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="frango" target="quiabo" id="172">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="frango" target="alho" id="173">
+        <attvalues>
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="frango" target="massa" id="174">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="frango" target="milho" id="175">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="frango" target="palmito" id="176">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="batata" target="couve" id="177">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="batata" target="alho" id="178">
+        <attvalues>
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="pao" target="camarao" id="179">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="pao" target="castanha de caju" id="180">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="camarao" target="castanha de caju" id="181">
+        <attvalues>
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="camarao" target="feijao-fradinho" id="182">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="camarao" target="vatapa" id="183">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="camarao" target="quiabo" id="184">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="camarao" target="abobora" id="185">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="camarao" target="creme de leite" id="186">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="castanha de caju" target="quiabo" id="187">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="feijao verde" target="bacon" id="188">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="feijao-fradinho" target="vatapa" id="189">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="massa de pastel" target="carne moida" id="190">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="massa de pastel" target="azeitonas" id="191">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="carne moida" target="azeitonas" id="192">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="quiabo" target="alho" id="193">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="alho" target="rabada" id="194">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="alho" target="agriao" id="195">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="alho" target="costela" id="196">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="alho" target="mandioca" id="197">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="alho" target="bacon" id="198">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="alho" target="moela" id="199">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="alho" target="couve" id="200">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="mandioca" target="costela" id="201">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="fuba" target="ovos" id="202">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="fuba" target="acucar" id="203">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="ovos" target="acucar" id="204">
+        <attvalues>
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="milho" target="acucar" id="205">
+        <attvalues>
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="milho" target="canela" id="206">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="milho" target="massa" id="207">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="milho" target="palmito" id="208">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="milho" target="agua" id="209">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="milho" target="sal" id="210">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="milho" target="leite de coco" id="211">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="acucar" target="amido de milho" id="212">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="acucar" target="canela" id="213">
+        <attvalues>
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="acucar" target="leite de coco" id="214">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="acucar" target="abobora" id="215">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="acucar" target="goiaba" id="216">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="acucar" target="gelatina" id="217">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="acucar" target="amendoim" id="218">
+        <attvalues>
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="acucar" target="rapadura" id="219">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="canela" target="abobora" id="220">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="rabada" target="agriao" id="221">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="costela" target="sal grosso" id="222">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="picanha" target="sal grosso" id="223">
+        <attvalues>
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="massa" target="palmito" id="224">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="agua" target="sal" id="225">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="leite de coco" target="sururu" id="226">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="abobora" target="creme de leite" id="227">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="amendoim" target="rapadura" id="228">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
