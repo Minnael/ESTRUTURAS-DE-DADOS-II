@@ -35,7 +35,7 @@ O grafo foi utilizado para calcular o coeficiente de assortatividade, com o obje
 A visualização do grafo foi feita por meio de dois layouts principais. No primeiro, utilizando o algoritmo de Spring Layout, observamos como os ingredientes mais conectados se aproximam naturalmente, evidenciando os núcleos de maior interação. Já no segundo, utilizando a abordagem de Circos Plot, foi possível agrupar visualmente os ingredientes por categoria, permitindo identificar facilmente as ligações entre diferentes tipos de alimentos. Ambas as representações confirmaram a diversidade de combinações e o dinamismo das relações entre os ingredientes da culinária brasileira.
 A partir dessa análise, fica evidente como a gastronomia brasileira valoriza a variedade e a combinação de sabores, texturas e nutrientes, refletindo sua riqueza cultural e a influência de diferentes tradições culinárias ao longo da história.
 
-![grafo_ingredientes](/IMAGES/grafo_ingredientes.png)
+![grafo_ingredientes](IMAGES/grafo_ingredientes.png)
 *Explicação:*     
 O gráfico acima representa o grafo de coocorrência de ingredientes baseado em 50 receitas da culinária brasileira. Cada nó é um ingrediente, colorido conforme seu tipo (proteína, carboidrato, vegetal, etc.), e as arestas indicam que dois ingredientes apareceram juntos em uma receita. O tamanho dos nós é proporcional ao número de conexões.
 Ingredientes como queijo, coco, leite, açúcar e arroz são centrais, mostrando sua alta frequência e versatilidade nas receitas. Já itens como picanha e sal grosso aparecem mais isolados, relacionados a pratos específicos.
