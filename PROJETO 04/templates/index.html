@@ -10,58 +10,127 @@
     <div id="map"></div>
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script>
-    let map = L.map('map').setView([-5.7945, -35.2110], 15);
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+        let map = L.map('map').setView([-5.7945, -35.2110], 15);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
-    let rotaLayer;
-    let origemMarker, destinoMarker;
-    let ultimaPosicao = null;
+        let rotaLayer;
+        let origemMarker, destinoMarker;
 
-    async function atualizarRotaComBase(posicao) {
-        const coords = [posicao.coords.latitude, posicao.coords.longitude];
+        // Posições simuladas do motoboy
+        const posicoesSimuladas = [
+    [-5.843812871617986, -35.19950462759118],
+    [-5.84385070072806, -35.19907119663271],
+    [-5.8438857786910425, -35.19871664649173],
+    [-5.843910135570613, -35.19848449510256],
+    [-5.8439885845985655, -35.19765327089938],
+    [-5.8440103387172195, -35.19738880576172],
+    [-5.844053719531976, -35.19690013829956],
+    [-5.844085798734523, -35.19667165860249],
+    [-5.844194610610998, -35.196650727719586],
+    [-5.844325004415559, -35.19667490737023],
+    [-5.84469998516946, -35.19710792854349],
+    [-5.84497885073982, -35.19742233913501],
+    [-5.845016128002531, -35.19745736344251],
+    [-5.845143774815872, -35.19760149486897],
+    [-5.8452981725234885, -35.197780424432715],
+    [-5.845367009861245, -35.19786830150528],
+    [-5.8455373772341535, -35.19806039229548],
+    [-5.845625248015976, -35.198161823664016],
+    [-5.845817419720831, -35.19837885259549],
+    [-5.846243484370998, -35.19887944817769],
+    [-5.846429000069187, -35.19907674264393],
+    [-5.84670022761453, -35.199373589415224],
+    [-5.84695712371361, -35.199680072160255],
+    [-5.84712032878612, -35.199854825573006],
+    [-5.847299330593841, -35.20006740935359],
+    [-5.84746742317636, -35.20025866514534],
+    [-5.8476063691897275, -35.20039277064755],
+    [-5.847746034972118, -35.20056796728377],
+    [-5.848004372871688, -35.20087243701235],
+    [-5.848333706106035, -35.20125623070693],
+    [-5.848485918529658, -35.201401828304036],
+    [-5.848671230477834, -35.20162842104061],
+    [-5.848864312290993, -35.201852445471474],
+    [-5.849058875900659, -35.20206569595896],
+    [-5.8491851762114395, -35.20223210072148],
+    [-5.849389517660049, -35.20244306037853],
+    [-5.84967104315229, -35.202762051544205],
+    [-5.849865260891108, -35.203002769722005],
+    [-5.849946123161662, -35.203089308508346],
+    [-5.850161666693979, -35.20334614619992],
+    [-5.850319380397471, -35.20351031875275]
+];
 
-        // Só atualiza se mudou significativamente
-        if (!ultimaPosicao || distancia(ultimaPosicao, coords) > 20) { // 20 metros de tolerância
-            ultimaPosicao = coords;
 
-            const response = await fetch(`/rota?lat=${coords[0]}&lng=${coords[1]}`);
+        let indiceAtual = 0;
+
+        function calcularAngulo(p1, p2) {
+            const dy = p2[0] - p1[0];
+            const dx = p2[1] - p1[1];
+            const rad = Math.atan2(dy, dx);
+            const deg = rad * (180 / Math.PI);
+            return deg;
+        }
+
+        const destinoIcone = L.divIcon({
+            className: 'destino-icon',
+            html: `<div style="
+                background-color: red;
+                width: 16px;
+                height: 16px;
+                border-radius: 50%;
+                border: 2px solid white;
+                box-shadow: 0 0 5px #333;
+            "></div>`,
+            iconSize: [18, 18],
+            iconAnchor: [9, 9],
+        });
+
+        function criarIconeMoto(rotacao=-90) {
+            return L.divIcon({
+                className: 'moto-icon',
+                html: `<img src="/static/motinha3.png" style="transform: rotate(${rotacao}deg); width: 40px; height: 40px;">`,
+                iconSize: [40, 40],
+                iconAnchor: [20, 20],
+            });
+        }
+
+        async function atualizarRotaComBaseSimulada() {
+            if (indiceAtual >= posicoesSimuladas.length - 1) {
+                indiceAtual = 0;
+            }
+
+            const posAtual = posicoesSimuladas[indiceAtual];
+            const proxPos = posicoesSimuladas[indiceAtual + 1];
+            const angulo = calcularAngulo(posAtual, proxPos);
+            indiceAtual++;
+
+            const response = await fetch(`/rota?lat=${posAtual[0]}&lng=${posAtual[1]}`);
             const data = await response.json();
 
             if (rotaLayer) map.removeLayer(rotaLayer);
-            if (origemMarker) map.removeLayer(origemMarker);
-            if (destinoMarker) map.removeLayer(destinoMarker);
-
             rotaLayer = L.polyline(data.caminho, { color: 'purple' }).addTo(map);
-            origemMarker = L.marker(data.origem).addTo(map);
-            destinoMarker = L.marker(data.destino).addTo(map);
 
-            map.setView(coords, 15);
+            const iconeRotacionado = criarIconeMoto(angulo);
+
+            if (!origemMarker) {
+                origemMarker = L.marker(data.origem, { icon: iconeRotacionado }).addTo(map);
+            } else {
+                origemMarker.setIcon(iconeRotacionado);
+                origemMarker.setLatLng(data.origem);
+            }
+
+            if (!destinoMarker) {
+                destinoMarker = L.marker(data.destino, { icon: destinoIcone }).addTo(map);
+            } else {
+                destinoMarker.setLatLng(data.destino);
+            }
+
+            map.setView(posAtual, 15);
         }
-    }
 
-    // Calcular distância em metros entre duas coordenadas
-    function distancia([lat1, lon1], [lat2, lon2]) {
-        function toRad(x) { return x * Math.PI / 180; }
-        const R = 6371000; // Raio da Terra em metros
-        const dLat = toRad(lat2 - lat1);
-        const dLon = toRad(lon2 - lon1);
-        const a = Math.sin(dLat/2) ** 2 +
-                  Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) *
-                  Math.sin(dLon/2) ** 2;
-        const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-        return R * c;
-    }
-
-    if (navigator.geolocation) {
-        navigator.geolocation.watchPosition(atualizarRotaComBase, console.error, {
-            enableHighAccuracy: true,
-            maximumAge: 1000,
-            timeout: 5000
-        });
-    } else {
-        alert("Geolocalização não é suportada pelo seu navegador.");
-    }
-</script>
-
+        // Atualiza a posição do motoboy a cada 3 segundos
+        setInterval(atualizarRotaComBaseSimulada, 2000);
+    </script>
 </body>
 </html>
