@@ -10,7 +10,7 @@ DEPARTAMENTO DE ENGENHARIA DE COMPUTAÇÃO E AUTOMAÇÃO
 DCA3702 - ALGORITMOS E ESTRUTURAS DE DADOS II  
 </p>
 
-<h1 align="center"><strong>PROJETO 06 - MST aplicada ao grafo urbano da cidade de Natal*</strong></h1>
+<h1 align="center"><strong>PROJETO 06 - MST aplicada ao grafo urbano da cidade de Natal</strong></h1>
 
 <strong>DISCENTES:</strong>
 - MINNAEL CAMPELO DE OLIVEIRA  
@@ -30,5 +30,7 @@ DCA3702 - ALGORITMOS E ESTRUTURAS DE DADOS II
 ## Informações Complementares
 - [Link para o MEDIUM](https://medium.com/@minaelcampelo3/otimizando-redes-de-t%C3%A1xi-com-algoritmos-de-grafos-um-estudo-de-caso-em-natal-rn-20951540e9b2)
 
-- Os prompts utilizados no projeto estão contidos na pasta [MD](https://github.com/Onifin/aed2/tree/main/TRABALHO%205/MD)
-- Os arquivos jupyter notebook utilizados estão na pasta [JUPYTER](https://github.com/Onifin/aed2/tree/main/TRABALHO%205/JUPYTER)
+- Link para o [Podcast](https://notebooklm.google.com/notebook/1ef43f50-b5ad-4cc4-8924-2207106b0489/audio)
+
+- Os prompts utilizados no projeto estão contidos na pasta [MD](https://github.com/Minnael/ESTRUTURAS-DE-DADOS-II/tree/master/PROJETO%2006/MD)
+- Os arquivos jupyter notebook utilizados estão na pasta [JUPYTER](https://github.com/Minnael/ESTRUTURAS-DE-DADOS-II/tree/master/PROJETO%2006/JUPYTER)
